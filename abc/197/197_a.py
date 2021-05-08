@@ -1,0 +1,5 @@
+str = list(input())
+head = str.pop(0)
+str.append(head)
+result = "".join(str)
+print(result)
